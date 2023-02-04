@@ -1,0 +1,67 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.owl-nav button {
+	position: absolute;
+	top: 50%;
+	background-color: #7a1111;
+	color: #fff;
+	margin: 0 20px;
+	transition: all 0.3s ease-in-out;
+  }
+  .owl-nav button.owl-prev {
+	left: 0;
+  }
+  .owl-nav button.owl-next {
+	right: 0;
+  }
+  
+  .owl-dots {
+	text-align: center;
+	padding-top: 15px;
+  }
+  .owl-dots button.owl-dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #ccc;
+	margin: 0 3px;
+  }
+  .owl-dots button.owl-dot.active {
+	background-color: #7a1111 !important;
+  }
+  .owl-dots button.owl-dot:focus {
+	outline: none;
+  }
+  .owl-nav button {
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+	  background: #7a1111 !important;
+	  color: #fff;
+	  border-radius: 50%;
+	  width: 40px;
+	  height: 40px;
+  }
+  span {
+	  font-size: 50px;    
+	  position: relative;
+	  top: -26px;
+	  color: #fff;
+  }
+  .owl-nav button:focus {
+	  outline: none;
+  }
+
+  .owl-carousel{
+	  padding: 0 40px;
+  }
+
+  .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
+	  display: block;
+  }
